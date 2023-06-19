@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+
+  <!doctype html public "lice">
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/sub1.css"/>
+    <link rel="stylesheet" href="js/paroller.js-master/assets/style.css"/>
+    <link rel="stylesheet" href="css/webwidget_scroller_tab.css"/>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://rawgithub.com/dynamicguy/tagcloud/master/src/tagcloud.jquery.js"></script>
+    <title>프로필 카드</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+
+
+  <script type="text/javascript">
+    var settings = {
+        //height of sphere container
+        height: 400,
+        //width of sphere container
+        width: 400,
+        //radius of sphere
+        radius: 150,
+        //rotation speed
+        speed: 0.3,
+        //sphere rotations slower
+        slower: 0.9,
+        //delay between update position
+        timer: 5,
+        //dependence of a font size on axis Z
+        fontMultiplier: 15,
+        //tag css stylies on mouse over
+        hoverStyle: {
+            border: 'none',
+            color: '#0b2e6f'
+        },
+        //tag css stylies on mouse out
+        mouseOutStyle: {
+            border: '',
+            color: ''
+        }
+    };
+    $(document).ready(function(){
+        $('#tagcloud').tagoSphere(settings);
+    });
+</script>
+  </head>
+  <body>
+    <div class="container">
+    <header class="header">
+      <div class="img_box">
+        <img data-aos="fade-left" class="profile" src="img/P20190828_140707185_F01D58F3-4BB8-4CFC-8196-9BDCC3C5C0E2.JPG" alt="" />
+        <p data-aos="fade-right" class=" intro">
+        저는 연구원 출신으로 <br> 
+        세상속 행복을 디자인하는<br>
+        디자이너 양준영입니다.</p>
+      </div>
+      <!-- img_box end -->
+
+      <div class="skill_box">
+        <div class="tab_title">My Skill</div>
+      <div class="skill">
+        <div id="tagcloud">
+          <ul>
+            <li><a href="#">#ENTP</a></li>
+            <li><a href="#">#HTML</a></li>
+            <li><a href="#">#CSS</a></li>
+            <li><a href="#">#XE</a></li>
+            <li><a href="#">#SCRIPT</a></li>
+            <li><a href="#">#vegas</a></li>
+            <li><a href="#">#tubular</a></li>
+            <li><a href="#">#youtube</a></li>
+            <li><a href="#">#루트베이직</a></li>
+            <li><a href="#">#부트스트랩</a></li>
+            <li><a href="#">#포토샵</a></li>
+            <li><a href="#">#일러스트</a></li>
+            <li><a href="#">#디자인</a></li>
+            <li><a href="#">#프리미어프로</a></li>
+            <li><a href="#">#사진</a></li>
+            <li><a href="#">#영상</a></li>
+            <li><a href="#">#그림</a></li>
+            <li><a href="#">#운동</a></li>
+            <li><a href="#">#헬스</a></li>
+            <li><a href="#">#활발함</a></li>
+            <li><a href="#">#창의성</a></li>
+            <li><a href="#">#모험심</a></li>
+            <li><a href="#">#예의적</a></li>
+            <li><a href="#">#충성심</a></li>
+            <li><a href="#">#봉사심</a></li>
+            <li><a href="#">#연구원출신</a></li>
+            <li><a href="#">#연계창조</a></li>
+            <li><a href="#">#신념</a></li>
+            <li><a href="#">#기독신앙</a></li>
+            <li><a href="#">#양과 질</a></li>
+
+        </ul>
+        </div>
+        <!-- tagcloud end -->
+      </div>
+      <!-- skill end -->
+    </div>
+    <!-- skill_box end -->
+
+    </header>
+    <!-- header end -->
+    <div class="r_info">
+      <div class="about">
+        <h2>ABOUT</h2>
+        <ul>
+          <li>이름 / 활동명<span>양준영 / 양지머리</span></li>
+          <li>출생지 / 주요 활동지<span>광주 / 광주광역시, 대전광역시, 천안시, 서울특별시</span></li>
+          <li>학위<span>순천향대 생명시스템학 학사</span></li>
+        </ul>
+      </div>
+      <!-- about end -->
+      <div class="about">
+        <h2>WORK EXPIRENCE</h2>
+        <ul>
+          <li>본교 의생명연구소 &#40;SIMS&#41; 3개월 인턴 수료<span>2019.03 ~ 06</span></li>
+          <li>전남대 의생명연구원 &#40;cnuhbri&#41; 6개월 인턴 수료<span>2021.12 ~ 06</span></li>
+        </ul>
+      </div>
+      <!-- WORK EXPIRENCE end -->
+
+      <div class="about">
+        <h2>AWARD</h2>
+        <ul>
+          <li>최근 2023 서울 광화문 영상컨텐츠 공모전 상품 취득 <span>2023.02</span></li>
+          <li>각종 여러 대외 학술회 상품 수여<span>2019 ~ 2020</span></li>
+        </ul>
+      </div>
+      <!-- AWARD end -->
+      <div class="about">
+        <h2>ADUCATION</h2>
+        <ul>
+          <li>UX/U1 스마트 웹&SNS콘텐츠디자인 부트캠프 수료<span>2023.06</span></li>
+          <li>순천향대학교 학사 졸업<span>2020.02</span></li>
+          <li>고려고등학교 졸업<span>2013.03</span></li>
+        </ul>
+      </div>
+      <!-- AWARD end -->
+    </div>
+    <!-- r_info end -->
+    </div>
+    <!-- container end -->
+    <div class="container2">
+      <div data-paroller-factor="0.5" data-paroller-type="background" class="main_banner">
+      <h2 class="top_title"><img src="img/text1.png" alt=""></h2>
+      <h2 class="bottom_title"><img src="img/text2.png" alt=""></h2>
+    </div>
+    <!-- main_banner end -->
+
+    <div class="info_flex">
+    <div data-paroller-factor="0.5" data-paroller-type="foreground" class="info_box">
+      <h3>HTML</h3>
+      <p>프로그래밍 언어의 기본 틀 이해</p>
+    </div>
+    <!-- info_box -->
+    <div data-paroller-factor="0.1" data-paroller-type="foreground" class="info_box2">
+      <h3>CSS</h3>
+      <p>프로그래밍 언어의 기본 틀 이해</p>
+    </div>
+    <!-- info_box -->
+    <div data-paroller-factor="-0.1" data-paroller-type="foreground" class="info_box3">
+      <h3>JS</h3>
+      <p>프로그래밍 언어의 기본 틀 이해</p>
+    </div>
+    <!-- info_box -->
+    <div data-paroller-factor="0.9" data-paroller-type="foreground" data-paroller-direction="vertical" class="info_box4">
+      <h3>영상편집 가능</h3>
+      <p>프리미어 프로를 이용한 제품 현장감 극대화</p>
+    </div>
+    <!-- info_box -->
+    <div data-paroller-factor="0.15" data-paroller-type="foreground" data-paroller-direction="vertical" class="info_box5">
+      <h3>반응형 인터렉션 제작</h3>
+      <p>PC, Tablet, Mobile 사이즈별 여러 디자인</p>
+    </div>
+    <!-- info_box -->   
+    <div data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal" class="info_box8">
+      <h3>배너 제작</h3>
+      <p>툴 활용을 이용한 사이즈별 여러 디자인</p>
+    </div>
+    <!-- info_box -->
+    <div data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal" class="info_box6">
+      <h3>상세페이지 제작</h3>
+      <p>섬세하고 디테일한 디자인</p>
+    </div>
+    <!-- info_box -->
+    <div data-paroller-factor="-0.3" data-paroller-type="foreground" data-paroller-direction="horizontal" class="info_box7">
+      <h3>상호보완적 소통</h3>
+      <p>업무 내 효율적인 사이클링</p>
+    </div>
+    <!-- info_box -->
+    <div data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal" class="info_box8">
+      <h3>개발자(&디자이너)의 정신력</h3>
+      <p>배우고자 하는 꾸준한 마음</p>
+    </div>
+    <!-- info_box -->
+  </div>
+  <!-- info_flex end -->
+  <div class="empty"></div>
+  <!-- 아래 여백용 -->
+    </div>
+    <!-- container2 end -->
+
+    <div class="container3">
+      <div class="pf">
+        <ul>
+          <li><a href="http://yjy001608.dothome.co.kr"><img class="pf_img1"
+    margin-top: -280px;
+            data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal" src="img/20230615_154920.png" alt=""></a></li>
+          <li><p data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal" class="pf_text1">▣ 포털 웹사이트관리 시니어기업 에버영코리아의<br>
+        홈페이지를 리디자인하였습니다.<br>
+        👈해당 이미지를 누르면 제작한 사이트로 이동합니다.</p></li>
+        </ul>
+        <ul>
+          <li><p data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal" class="pf_text2">▣ 춘천연탄은행 밥상공통체 사이트의<br>
+      홈페이지를 리디자인하였습니다.<br>
+      👉해당 이미지를 누르면 제작한 사이트로 이동합니다.</p></li>
+          <li><a href="http://yjy4121608.dothome.co.kr"><img class="pf_img2" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal"  src="img/20230616_135715.png" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- container3 -->
+  </body>
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <script src="js/webwidget_scroller_tab.js"></script>
+  <script src="js/tagcloud.jquery.js"></script>
+  <script src="js/paroller.js-master/assets/main.js"></script>
+  <script src="js/paroller.js-master/dist/jquery.paroller.js"></script>
+  <script src="js/script.js"></script>
+</html>
