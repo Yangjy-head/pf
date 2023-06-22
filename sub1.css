@@ -1,0 +1,336 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'KBO-Dia-Gothic_bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+.container {
+  /* width: 340px;
+  height: 550px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: -170px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+ */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.header{
+    width: 30%; /*대략 380px*/
+    height: 969px;
+    background: burlywood /*#EA906C;*/
+}
+.img_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-top: 50px;
+}
+.img_box > img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    padding: 0 50px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.img_box > p{
+    font-size: 24px;
+    font-style: italic;
+    /* font-weight: bold; */
+    line-height: 30px;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    color: #fff;
+    padding-top: 50px;
+    margin-left: -20px;
+    margin-top: 40px;
+}
+.tab_title{
+    position: relative;
+    top: 110px;
+    left: 80px;
+    width: 90px;
+    border: 1px solid #000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 0 15px #333;
+    z-index: 114;
+}
+.skill{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-top: -30px;
+    margin-left: 80px;
+    border: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-shadow: 15px 15px 15px #333;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background: green;
+    z-index: 15;
+    top: 510px;
+}
+
+.r_info{
+    width: 70%;
+    height: 969px;
+    background: #666;
+}
+
+.about > h2{
+    text-shadow: 8px 8px 16px #333;
+    font-style: italic;
+    padding: 0 0 15px 0;
+    margin: 0 40px;
+    margin-right: 10px;
+}
+.about{
+    width: 95%;
+    height: 80px;
+    font-weight: bold;
+    color: burlywood;
+    margin-left: 10px;
+    position: relative;
+}
+.about ul > li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    margin-left: 10px;
+}
+.about ul span{
+    justify-content: flex-start;
+}
+
+.about:nth-of-type(2){
+    position: absolute;
+    top: 270px;
+    width: 63%;
+    right: 60px;
+}
+.about:nth-of-type(2) ul > li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    margin-left: 10px;
+}
+.about:nth-of-type(2) ul span{
+    justify-content: flex-start;
+    margin-right: 10px;
+}
+
+.about:nth-of-type(3){
+    position: absolute;
+    top: 480px;
+    right: 60px;
+    width: 46%; /*66.5%*/
+}
+
+.about:nth-of-type(3) ul > li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    margin-left: 10px;
+}
+.about:nth-of-type(3) ul span{
+    justify-content: flex-start;
+    margin-right: 10px;
+}
+
+.about:nth-of-type(4){
+    position: absolute;
+    top: 690px;
+    right: 60px;
+    width: 38%; /*66.5%*/
+}
+.about:nth-of-type(4) ul > li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    margin-left: 10px;
+}
+
+
+.about:nth-of-type(4) ul span{
+    justify-content: flex-start;
+    margin-right: 5px;
+}
+
+.container2{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.main_banner{
+    width: 1200px;
+    height: 1200px;
+    left: 400px;
+    background: url(../img/compass-8046139_1920.jpg) center -118px no-repeat;
+    justify-content: center;
+    margin-top: 500px;
+    position: relative;
+    /*https://unsplash.it/1200/800/?random*/
+}
+
+.top_title{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+top: 20px;
+color: #F2BE22;
+box-shadow: 0 0 15px #333;
+opacity: 0.9;
+box-sizing: border-box;
+}
+.top_title > img{
+    width: 600px;
+}
+
+.bottom_title{
+position: absolute;
+bottom: -20px;
+left: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+box-shadow: 0 0 15px #333;
+opacity: 0.9;
+box-sizing: border-box;
+}
+.bottom_title > img{
+    width: 600px;
+}
+
+.info_box{
+    margin-top: 1200px;
+    margin-left: 500px;
+}
+.info_box2{
+    margin-top: 120px;
+    margin-left: 560px;
+
+}
+.info_box3{
+    margin-top: -400px;
+    margin-left: 1300px;
+
+}
+.info_box4{
+    margin-top: 120px;
+    margin-left: 800px;
+
+}
+.info_box5{
+    margin-top: 220px;
+    margin-left: 500px;
+}
+.info_box9{/*5 바로밑*/
+    margin-top: 250px;
+    margin-left: 300px;
+}
+.info_box6{
+    margin-top: 120px;
+    margin-left: 1200px;
+
+}
+.info_box7{
+    margin-top: 130px;
+    margin-left: 500px;
+
+}
+.info_box8{
+    margin-top: 110px;
+    margin-left: 900px;
+}
+.info_flex{
+    justify-content: center;
+}
+.empty{
+    margin-bottom: 1000px;
+}
+
+.container3{
+    width: 100%;
+    height: 100%;
+    background: #fff; padding-top: 100px;
+}
+.pf{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+.pf > ul{ 
+    display: flex; justify-content: space-between;
+
+}
+.pf > ul li{
+    /* padding-left: 10px; */
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+.pf > ul li a { display: block; text-align: center;}
+.pf img{
+    width: 80%; box-shadow: 15px 15px 5px #000;
+    margin-bottom: 100px;
+    
+
+} 
+.pf > ul > li > p{
+    text-shadow: 10px 10px 10px #333;
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 150px;
+}
+.pf > ul:nth-of-type(2) > li > p{
+    text-align: right;
+    text-shadow: 10px 10px 10px #333;
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 80px;
+    padding-top: 150px;
+}
+
+.pf_text2{
+    padding-top: 100px;
+}
